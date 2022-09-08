@@ -1,0 +1,186 @@
+/*main*/
+body{
+    background-image: url('pics/ra.gif');
+    background-size: cover;
+    background-color: #000;
+    font-family: 'Product Sans';
+    font: 'Product Sans';
+    text-shadow: 1px 1px 1px #000;
+    width: 100%;
+    min-height: 100%;
+    background-color: cover ;
+    overflow-x:hidden; 
+}
+
+body::-webkit-scrollbar {
+    width: 6px;               
+}
+
+body::-webkit-scrollbar-track {
+    background-color: rgb(0, 0, 0);       
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(77, 77, 82);
+    border-color: #000;    
+    border-radius: 20px;       
+}
+
+.center-info{
+    margin: 0 auto;
+    margin-top: 3%;
+    min-width: 300px;
+    width: 400px;
+    backdrop-filter: blur(45px);
+    display: grid;
+    border-radius: 15px;
+}
+
+.avatar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 10em;
+    height: 10em;
+    margin: 0 auto;
+}
+
+.name{
+    color:var(--text-color);
+    font-size: 40px;
+    text-align: center;
+}
+
+.description{
+    color:var(--text-color);
+    text-align: center;
+    font-size: 35px;
+}
+
+.buttons{
+    color:var(--text-color);
+    text-align: center;
+    font-size: 30px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
+}
+
+.link-telegram{
+    cursor: pointer;
+    padding: 8px 20px;
+    margin: 4px;
+    border-radius: 10px;
+}
+
+.link-telegram:hover{
+    background: #479ae357;
+    box-shadow: 0 0 8px 8px rgba(255, 255, 255, 0.068) inset;
+}
+
+.link-telegram-channel{
+    cursor: pointer;
+    padding: 8px 20px;
+    margin: 4px;
+    border-radius: 10px;
+    transform:0, 10px ;
+}
+
+.link-telegram-channel:hover{
+    background: #479ae357;
+    box-shadow: 0 0 8px 8px rgba(255, 255, 255, 0.068) inset;
+}
+
+.link-inst{
+    cursor: pointer;
+    padding: 8px 20px;
+    margin: 4px;
+    border-radius: 10px;
+    transform:0, 10px ;
+}
+
+.link-inst:hover{
+    background: #d300c57a;
+    box-shadow: 0 0 8px 8px rgba(255, 255, 255, 0.068) inset;
+}
+.link-git{
+    cursor: pointer;
+    padding: 8px 20px;
+    margin: 4px;
+    border-radius: 10px;
+    transform:0, 10px ;
+}
+
+.link-git:hover{
+    background: #484f58;
+    box-shadow: 0 0 8px 8px rgba(255, 255, 255, 0.068) inset;
+}
+
+.link-steam{
+    cursor: pointer;
+    padding: 8px 20px;
+    margin: 4px;
+    border-radius: 10px;
+    transform:0, 10px ;
+}
+
+.link-steam:hover{
+    background: #2a475e91;
+    box-shadow: 0 0 8px 8px rgba(255, 255, 255, 0.068) inset;
+}
+
+.link-spotify{
+    cursor: pointer;
+    padding: 8px 20px;
+    margin: 4px;
+    border-radius: 10px;
+    transform:0, 10px ;
+}
+
+.link-spotify:hover{
+    background: #1db95457;
+    box-shadow: 0 0 8px 8px rgba(255, 255, 255, 0.068) inset;
+}
+
+.link-discord{
+    cursor: pointer;
+    padding: 8px 20px;
+    margin: 4px;
+    border-radius: 10px;
+    transform:0, 10px ;
+}
+
+.link-discord:hover{
+    background: #7289da73;
+    box-shadow: 0 0 8px 8px rgba(255, 255, 255, 0.068) inset;
+}
+
+.link-vk{
+    cursor: pointer;
+    padding: 8px 20px;
+    margin: 4px;
+    border-radius: 10px;
+    transform:0, 10px ;
+}
+
+.kit-wrapper{
+    background-image: "./assets/kit_retina.jpg";
+    text-align: center;
+    cursor: pointer;
+    padding: 8px 20px;
+    margin: 4px;
+    border-radius: 10px;
+    transform:0, 10px ;
+}
+
+.link-vk:hover{
+    background: #4c75a357;
+    box-shadow: 0 0 8px 8px rgba(255, 255, 255, 0.068) inset;
+}
+
+:root{
+    --text-color: #FFFFFF;
+}
