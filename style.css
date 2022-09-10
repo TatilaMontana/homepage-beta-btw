@@ -54,7 +54,7 @@ body::-webkit-scrollbar-thumb {
     width: 400px;
 }
 
-#description{
+.description{
     color:var(--text-color);
     text-align: center;
     font-size: 35px;
