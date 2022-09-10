@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Neo_Life - Homepage</title>
-    <link rel="shortcut-icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="shortcut-icon" type="image/x-icon" href="./pics/favicon.ico">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="assets\font\font.css">
     <meta name="theme-color" content="#0d7575">
-    <script src="index.js"></script>
+    <script src="/script/index.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 </head>
 <body>
         <div class="center-info">
@@ -18,8 +19,20 @@
                 <div class="avatar-cont">
                     <img  class="avatar"src="pics/chrome_SkM3oRQXJl.png"></div>
                     <br>
-                <div class="name" onclick="playMusic()">Neo_Life</div><br>
-                <div class="description">This is my social media page  🌙 </div>
+                <div id="name" onclick="playMusic()"></div><br>
+                <script>
+                    
+        var typed = new Typed("#name",{
+        strings: ["Neo_Life", "ya suka"],
+        smartBackspace: true,
+        backDelay: 2000,
+        loop: true,
+        backSpeed: 100,
+        typeSpeed: 300
+    });
+    
+                </script>
+                <div id="description">This is my social media page  🌙 </div>
             </div>
             <br>
             <div class="buttons">
