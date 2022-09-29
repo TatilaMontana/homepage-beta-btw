@@ -183,6 +183,10 @@ body::-webkit-scrollbar-thumb {
     box-shadow: 0 0 8px 8px rgba(255, 255, 255, 0.068) inset;
 }
 
+span{
+    visibility: hidden;
+}
+
 :root{
     --text-color: #FFFFFF;
 }
